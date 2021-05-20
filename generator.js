@@ -74,7 +74,7 @@ function argumentSentence(title, surname) {
 		'Jesteśmy traktowani bardzo rygorystycznie, a prowadzący zapomina, że jesteśmy też tylko ludźmi. Nie ma miejsca na żadne odstępstwa, z góry traktuje się nas jak oszustów. ',
 		`${title} robi nam wielką łaskę, że czasem coś wytłumaczy lub da materiały. Tym sposobem nie podnosi się w żaden sposób naszych kompetencji czy poziomu. `,
 		'Prowadzący sam nie wie czego wymaga, zmienia zdanie co chwilę. ',
-		`Każdego dnia ${title} zadania ocenia są inaczej, według swojego humoru. Raz oblewa perfekcyjnie zadania, a raz zalicza takie, które wcale nie są zrobione dobrze. `
+		`Każdego dnia ${title} zadania ocenia inaczej, według swojego humoru. Raz oblewa perfekcyjnie zadania, a raz zalicza takie, które wcale nie są zrobione dobrze. `
 	]);
 };
 
