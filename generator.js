@@ -54,7 +54,9 @@ function anxietySentence(title, surname) {
 		'Modlę się każdego dnia, by moje cierpienia zostały ukrócone. ',
 		'Dłużej nie wytrzymam. ',
 		'Wstyd mi, że pracownik dydaktyczny reprezentuje się takimi zachowaniami ',
-		`Zacząłem mieć tiki nerwowe, gdy dostaję maile podpisane ${title} ${surname}`
+		`Zacząłem mieć tiki nerwowe, gdy dostaję maile podpisane ${title} ${surname}`,
+		'Jak tak można. ',
+		'Mam dość. ',
 	]);
 }
 
@@ -82,7 +84,8 @@ function argumentBegginingSentence(title, surname) {
 		'W każdej wypowiedzi prowadzącego czuć gigantyczną pogardę dla człowieka. ',
 		'Ciężko mi nie odnieść wrażenia, że prowadzący nie ma studentów za debili. A my naprawdę chcemy coś wynieść z tego przedmiotu! ',
 		'Jestem zmęczony ciągłym zmienianiem zdania przez prowadzącego. ',
-		'Wydarzyło się tyle sytuacji, że nawet nie dam rady wszystkich przytoczyć. Dopowiem je w kolejnych ankietach, gdy sobie przypomnę. '
+		'Wydarzyło się tyle sytuacji, że nawet nie dam rady wszystkich przytoczyć. Dopowiem je w kolejnych ankietach, gdy sobie przypomnę. ' ,
+		'Mam dość takiego zachowania prowadzącego. '
 	]);
 }
 
@@ -111,7 +114,9 @@ function exampleBegginingSentence(title, surname) {
 		'Kto studiuje na naszym wydziale, ten w cyrku się nie śmieje. Np. była taka sytuacja, że ',
 		'Takie prowokacyjne zachowania, które tu widziałem, nie powinny się nigdy wydarzyć. ',
 		'To co się tu działo, to ogromny popis cynizmu i przerostu ego. ',
-		'Podejście do studentów jest dramatyczne. Chcecie konkretnej sytuacji? Proszę! '
+		'Podejście do studentów jest dramatyczne. Chcecie konkretnej sytuacji? Proszę! ' ,
+		'To co się tu dzieje, to jakieś nieporozumienie. ' ,
+		`Nie mogę pojąć jak ktoś taki jak {$title} {$surname} może zachowywać się w taki sposób. `
 	]);
 };
 
@@ -128,6 +133,8 @@ function exampleSentence(title, surname) {
 		`Obrażono mnie. ${title} po prostu, personalnie, mnie obraził, z premedytacją. Skierował do mnie obraźliwe słowa. `,
 		`Jeden ze studentów potrzebował pilnie wezwać pomoc, bo któryś z domowników miał wypadek. ${title} mu na to nie pozwalał. W końcu zrozumiał powagę sytuacji i się zgodził, ale zrobił to z ogromną manierą w głosie i pogardą. `,
 		`Otóż ${title} na zajęciach podawał informacje sprzeczne z wykładem. Krzyczał na nas, gdy zwróciliśmy uwagę na błąd. Materiały wykładowe też go nie przekonały do przyznania się do pomyłki. `,
-		`Dobór zadań nie ma nic wspólnego z praktycznym zastosowaniem tego przedmiotu. Uprawiamy sztukę dla samej sztuki, ${title} ${surname} wymyśla absurdalne zadania w których trzeba duplikować dużo kodu, a jakiekolwiek techniki skrócenia go lub uproszczenia sobie pracy jest karane. Najgorsze jest poczucie, że nic z tego nie ma żadnego zastosowania w praktyce. `
+		`Dobór zadań nie ma nic wspólnego z praktycznym zastosowaniem tego przedmiotu. Uprawiamy sztukę dla samej sztuki, ${title} ${surname} wymyśla absurdalne zadania w których trzeba duplikować dużo kodu, a jakiekolwiek techniki skrócenia go lub uproszczenia sobie pracy jest karane. Najgorsze jest poczucie, że nic z tego nie ma żadnego zastosowania w praktyce. ` ,
+		`Jak pokazywałem zadanie, {$title} zaczął krzyczeć, bo rzekomo nie potrafię go zrobić. Jednak po zwróceniu uwagi, iż polecenie jest inne, {$title} musiał sprawdzić instrukcję. Okazało się, że od początku miałem poprawnie zrobione. ` ,
+		`{$title} {$surname} sprawdzając poprawione zadanie, ponownie uruchomił poprzednią, błędą, wersję. Po napisaniu maila o pomyłce, {$title} wciąż miał problem ze sposobem rozwiązania, które robiło dokładnie to czego oczekiwał. `
 	]);
 };
